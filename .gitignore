@@ -1,0 +1,43 @@
+# Ignore build directory
+/build/
+
+# Ignore CMake cache files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# Ignore compiled object files
+*.o
+*.lo
+*.la
+*.al
+
+# Ignore executables
+*.out
+*.exe
+dynamixel_control
+
+# Ignore logs and debugging files
+*.log
+*.stackdump
+
+# Ignore shared library files
+*.so
+*.so.*
+
+# Ignore editor/IDE-specific files
+.vscode/
+.idea/
+*.swp
+*~
+*.user
+*.db
+.DS_Store
+
+# Ignore backups
+*.bak
+*.old
+*.orig
+
+# Ignore dynamically generated documentation
+/docs/
