@@ -1,3 +1,5 @@
+cmake_minimum_required(VERSION 3.10)
+
 # Project name and version
 project(Snap-Fit VERSION 1.0)
 
@@ -15,7 +17,7 @@ include_directories(${DYNAMIXEL_SDK_DIR}/c++/include)
 link_directories(${DYNAMIXEL_SDK_DIR}/c++/build/linux64)
 
 # Add executable
-add_executable(dynamixel_control src/main.cpp)
+add_executable(snap_fit src/main.cpp)
 
 # Link the Dynamixel SDK shared library
-target_link_libraries(dynamixel_control dxl_x64_cpp)
+target_link_libraries(snap_fit dxl_x64_cpp)
